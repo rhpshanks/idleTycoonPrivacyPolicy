@@ -1,9 +1,10 @@
 # Privacy Policy — Idle Empire
 
 **App:** Idle Empire (`com.idleempire.tycoon`)
-**Effective:** 6 September 2026 (rev. 2 — banner advertising added)
+**Effective:** 11 September 2026 (rev. 3 — optional rewarded ads added)
 
-**Short version:** Idle Empire shows banner ads through Google AdMob. Google collects data through
+**Short version:** Idle Empire shows a banner ad, and full-screen reward ads only when you tap an
+offer to watch one, all through Google AdMob. Google collects data through
 those ads, including your device's advertising ID. We do not collect, receive or store any personal
 information ourselves, and your game progress stays on your own device.
 
@@ -14,7 +15,9 @@ profile. We operate no server and receive no data about you.
 
 ## Advertising (Google AdMob)
 
-The app displays banner advertisements supplied by Google AdMob. To select and measure those ads,
+The app displays a banner advertisement supplied by Google AdMob. It can also show a full-screen
+rewarded advertisement, but only after you tap an offer that names the reward (for example doubling
+offline earnings); you can always decline and keep playing. To select and measure those ads,
 Google's advertising SDK collects information directly from your device, which typically includes:
 
 - your device's advertising ID (a resettable identifier);
