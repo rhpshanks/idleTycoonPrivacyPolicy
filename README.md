@@ -1,17 +1,19 @@
 # Privacy Policy — Idle Empire
 
 **App:** Idle Empire (`com.idleempire.tycoon`)
-**Effective:** 11 September 2026 (rev. 3 — optional rewarded ads added)
+**Effective:** 18 September 2026 (rev. 4 — gameplay analytics added)
 
 **Short version:** Idle Empire shows a banner ad, and full-screen reward ads only when you tap an
-offer to watch one, all through Google AdMob. Google collects data through
+offer to watch one, all through Google AdMob. It also measures how the game is played using
+GameAnalytics. Google collects data through
 those ads, including your device's advertising ID. We do not collect, receive or store any personal
 information ourselves, and your game progress stays on your own device.
 
 ## Information we collect
 
-We collect nothing ourselves. There is no account, no sign-in, no email capture and no user
-profile. We operate no server and receive no data about you.
+We ask for nothing about you personally: no account, no sign-in, no email capture, no name and no
+contacts. We operate no server of our own. We do receive anonymous gameplay statistics through
+GameAnalytics, described below, which cannot identify you.
 
 ## Advertising (Google AdMob)
 
@@ -44,6 +46,24 @@ or non-personalised ads. You can reopen that choice by clearing the app's data a
 The app requests the `INTERNET` permission and access to the advertising ID solely so the
 advertising SDK can fetch and display ads. The game itself does not send your progress, your taps or
 any other gameplay information anywhere. There is no analytics SDK and no crash reporting service.
+
+
+## Analytics (GameAnalytics)
+
+The app uses GameAnalytics to measure how the game is played, so it can be improved. When you play,
+the GameAnalytics SDK sends events such as which generators and upgrades you buy, how far you get
+through the opening goals, when you rebirth, and whether you chose to watch a reward ad. Alongside
+those events it sends technical and device information, which typically includes:
+
+- a random identifier generated for your install (not your name or email);
+- device model, operating system version, app version and language;
+- country or region derived from your IP address;
+- session counts and how long sessions last.
+
+This is used only in aggregate to see where players get stuck or stop playing. It is not used to
+identify you, and it is not sold. GameAnalytics describes its handling of this data in its
+[privacy policy](https://gameanalytics.com/privacy). Deleting the app stops any further events
+being sent.
 
 ## Data stored on your device
 
