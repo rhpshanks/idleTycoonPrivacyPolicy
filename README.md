@@ -1,7 +1,7 @@
 # Privacy Policy — Idle Empire
 
 **App:** Idle Empire (`com.idleempire.tycoon`)
-**Effective:** 18 September 2026 (rev. 4 — gameplay analytics added)
+**Effective:** 23 September 2026 (rev. 5 — install attribution added)
 
 **Short version:** Idle Empire shows a banner ad, and full-screen reward ads only when you tap an
 offer to watch one, all through Google AdMob. It also measures how the game is played using
@@ -75,6 +75,25 @@ Your game progress is written to the app's own private storage on your device. I
 
 This save data never leaves your device. Uninstalling the app deletes it permanently, and it cannot
 be recovered by us because we never had a copy.
+
+## Attribution (AppsFlyer)
+
+If you installed Idle Empire after seeing an advertisement for it, we use AppsFlyer to tell which
+advertisement or link led to that install, so we do not keep paying for advertising that does not
+work. The AppsFlyer SDK sends:
+
+- the Google Play install referrer — the record of which link or ad store listing you arrived from;
+- your device's advertising ID, and device model, operating system and app version;
+- country or region derived from your IP address;
+- a random identifier generated for your install (not your name or email);
+- a small number of milestone events: reaching a new business tier, finishing the opening goals,
+  rebirthing, claiming a reward offer and watching a reward advertisement;
+- the amount an advertisement earned when one is shown to you, so we can tell whether advertising
+  the game costs more than the game makes.
+
+None of this identifies you personally, and it is not sold. The consent choice you make in the
+advertising consent form applies to AppsFlyer too. AppsFlyer describes its handling of this data in
+its [services privacy policy](https://www.appsflyer.com/legal/services-privacy-policy/). Deleting the app stops any further events being sent.
 
 ## Purchases
 
