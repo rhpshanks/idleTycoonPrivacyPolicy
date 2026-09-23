@@ -25,7 +25,7 @@
 <body>
 <main>
   <h1>Privacy Policy</h1>
-  <p class="meta">Idle Empire (<code>com.idleempire.tycoon</code>) &middot; Effective 23 September 2026 (rev. 5 - install attribution added)</p>
+  <p class="meta">Idle Empire (<code>com.idleempire.tycoon</code>) &middot; Effective 24 September 2026 (rev. 6 - network access corrected, notifications added)</p>
 
   <div class="box">
     <strong>Short version:</strong> Idle Empire shows a banner ad, and full-screen reward ads only
@@ -82,10 +82,11 @@
 
   <h2>Network access</h2>
   <p>
-    The app requests the <code>INTERNET</code> permission and access to the advertising ID solely
-    so the advertising SDK can fetch and display ads. The game itself does not send your progress,
-    your taps or any other gameplay information anywhere. There is no analytics SDK and no crash
-    reporting service.
+    The app requests the <code>INTERNET</code> permission and access to the advertising ID so the
+    three services described on this page can work: Google AdMob fetches and displays ads,
+    GameAnalytics receives the gameplay events and error reports described below, and AppsFlyer
+    receives the install and advertising information described below. Your saved game progress is
+    never uploaded - it stays on your device - and the app has no server of its own.
   </p>
 
 
@@ -100,7 +101,9 @@
     <li>a random identifier generated for your install (not your name or email);</li>
     <li>device model, operating system version, app version and language;</li>
     <li>country or region derived from your IP address;</li>
-    <li>session counts and how long sessions last.</li>
+    <li>session counts and how long sessions last;</li>
+    <li>reports of errors in the game - the error message and where in the game's code it
+        happened - so bugs can be found and fixed.</li>
   </ul>
   <p>
     This is used only in aggregate to see where players get stuck or stop playing. It is not used to
@@ -132,6 +135,15 @@
     advertising consent form described above is shared with AppsFlyer, so declining there applies
     here too. AppsFlyer describes its handling of this data in its
     <a href="https://www.appsflyer.com/legal/services-privacy-policy/">services privacy policy</a>. Deleting the app stops any further events being sent.
+  </p>
+
+  <h2>Notifications</h2>
+  <p>
+    From version 1.4.0 the app can show reminders, for example when your offline vault is full or
+    your daily reward is ready. The app schedules them on your device itself: no server or push
+    service is involved, and nothing is sent anywhere to deliver them. On Android 13 and later the
+    app asks your permission first, and on any version you can turn them off in your phone's
+    settings for Idle Empire.
   </p>
 
   <h2>Data stored on your device</h2>
