@@ -1,7 +1,7 @@
 # Privacy Policy — Idle Empire
 
 **App:** Idle Empire (`com.idleempire.tycoon`)
-**Effective:** 24 September 2026 (rev. 6 — network access corrected, notifications added)
+**Effective:** 4 October 2026 (rev. 7 — Google Analytics for Firebase added)
 
 **Short version:** Idle Empire shows a banner ad, and full-screen reward ads only when you tap an
 offer to watch one, all through Google AdMob. It also measures how the game is played using
@@ -43,10 +43,11 @@ or non-personalised ads. You can reopen that choice by clearing the app's data a
 
 ## Network access
 
-The app requests the `INTERNET` permission and access to the advertising ID so the three services
+The app requests the `INTERNET` permission and access to the advertising ID so the four services
 described in this policy can work: Google AdMob fetches and displays ads, GameAnalytics receives the
 gameplay events and error reports described below, and AppsFlyer receives the install and advertising
-information described below. Your saved game progress is never uploaded — it stays on your device —
+information described below, and Google Analytics for Firebase receives the usage and advertising
+measurements described below. Your saved game progress is never uploaded — it stays on your device —
 and the app has no server of its own.
 
 
@@ -98,6 +99,19 @@ work. The AppsFlyer SDK sends:
 None of this identifies you personally, and it is not sold. The consent choice you make in the
 advertising consent form applies to AppsFlyer too. AppsFlyer describes its handling of this data in
 its [services privacy policy](https://www.appsflyer.com/legal/services-privacy-policy/). Deleting the app stops any further events being sent.
+
+## Analytics (Google Analytics for Firebase)
+
+The app also uses Google Analytics for Firebase, which Google uses to measure and improve the
+advertising that brings players to the game. It records when the app is first opened and used, the
+same milestone events listed for AppsFlyer above (reaching a new business tier, finishing the opening
+goals, rebirthing, watching a reward advertisement), and when advertisements are shown and what they
+earned. Alongside these it sends an app instance identifier, the random install identifier described
+above, your device's advertising ID, device model, operating system and app version, and country or
+region derived from your IP address. None of this identifies you personally, and it is not sold. The
+consent choice you make in the advertising consent form applies here too. Google describes how it uses
+this data at [How Google uses information from sites or apps that use its
+services](https://policies.google.com/technologies/partner-sites).
 
 ## Notifications
 
