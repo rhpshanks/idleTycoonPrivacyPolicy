@@ -1,10 +1,10 @@
 # Privacy Policy — Idle Empire
 
 **App:** Idle Empire (`com.idleempire.tycoon`)
-**Effective:** 4 October 2026 (rev. 7 — Google Analytics for Firebase added)
+**Effective:** 7 November 2026 (rev. 8 — full-screen ads between play added)
 
-**Short version:** Idle Empire shows a banner ad, and full-screen reward ads only when you tap an
-offer to watch one, all through Google AdMob. It also measures how the game is played using
+**Short version:** Idle Empire shows a banner ad, full-screen reward ads when you tap an offer to
+watch one, and occasional full-screen ads at natural breaks in play, all through Google AdMob. It also measures how the game is played using
 GameAnalytics. Google collects data through
 those ads, including your device's advertising ID. We do not collect, receive or store any personal
 information ourselves, and your game progress stays on your own device.
@@ -19,7 +19,10 @@ GameAnalytics, described below, which cannot identify you.
 
 The app displays a banner advertisement supplied by Google AdMob. It can also show a full-screen
 rewarded advertisement, but only after you tap an offer that names the reward (for example doubling
-offline earnings); you can always decline and keep playing. To select and measure those ads,
+offline earnings); you can always decline and keep playing. From version 1.5.0 it also shows an
+occasional full-screen advertisement at a natural break — after a rebirth, a claimed goal or a free
+supply drop — never in your first ten minutes of play, never in the first two minutes after you open
+the game, and at most once every three minutes. To select and measure those ads,
 Google's advertising SDK collects information directly from your device, which typically includes:
 
 - your device's advertising ID (a resettable identifier);
